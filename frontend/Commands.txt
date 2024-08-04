@@ -1,0 +1,27 @@
+npm init -y             // Initialize package.JSON
+npm i webpack webpack-cli --save-dev
+npm i --save-dev html-webpack-plugin
+npm install @babel/core @babel/preset-env @babel/preset-react --save-dev
+npm install webpack-dev-server --save-dev
+npm install --save-dev "cross-env" // node_env error
+
+
+
+Loaders
+    npm install svg-inline-loader --save-dev
+    npm install --save-dev css-loader style-loader
+    npm install --save-dev babel-loader
+    
+
+
+
+
+
+
+
+
+Loaders => loads all the file before the outfile is getting created
+Plugins => Configurations After o/p file 
+css loaders => import css file into js file
+Style loader => inject in index.js stylesheet
+babel => Support all browsers to load our files
